@@ -1,0 +1,49 @@
+﻿Shaunak Patel                        Hw 4
+
+
+In this homework I created four classes FlashCard, Box, Flashcardtester, and testJunit (for test unit). 
+
+
+Flashcard class.
+I created Getter and setter method for flashcard’ question and answer and a method for randomSide. Which I used in Box class where, when I run the code it shows front or back of the flashcard.
+
+
+Box Class.
+In this class I first created an arraylist of flashcard name FCB. Then I had a method for add which adds the flashcard, a method for remove which removes the class card, a method of size which know what size the Arraylist of flashcard is, a method of cardlist which prints the flashcard card in each box, a method of pickacard which randomly picks a card from the box, a method flipcard which flips the card that is if the shown flashcard is question and we use flip a card it shows answer, a method of getcard it randomly gets the card, a method for get picked card which gets a picked card and i used it for adding and removing the card when the user knows or doesn't know the answer. 
+
+
+Flashcard Tester  class.
+
+
+In this the first thing I did was create an arraylist of integers then I created an arraylist of boxs(I made Arraylist from 0-4 instead of 1-5 because, the flashcard I stored are in box 0) . Then I created a recursive method which we learned in python where if the box runs and does not find the card then it reruns itself. Then I created 4 switch where 
+1) it flips the card.
+2) it adds the card if the user knows the answer where i used all the methods which I need from box class like remove card, add card, size, card list getpickacard. And it adds to the next box if the user knows the answer and if the user reaches the last box that is 4 box then it automatically disappears.
+3) I moved the flashcard from the given box to box 0 if user press does not know the answer.
+4) it just exits the flashcard game. 
+
+
+Test junit class.
+In this I created method like Testaddcard, testremovecard, testflipcard, testpickacard. 
+
+
+My Outputs
+
+
+User input , list of flashcards and flashcard pick randomly. 
+  
+
+
+
+When users wants to flip the card 
+  
+
+When the user knows the answer. 
+  
+
+When user does not know the answer, then the flashcard moves from the box it is in and go back to box 1. 
+  
+
+When all the flashcard moves to the last box and the user knows the answer and the last flashcard disappears the program stops.   
+
+
+Junit output
